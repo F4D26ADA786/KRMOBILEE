@@ -1,0 +1,74 @@
+def X1():
+    model2 = random.choice(["SM-G925F","SM-G900W8","SM-G925V","GT-I9505","SM-G920T"])
+    a = f'Dalvik/2.1.0 (Linux; U; Android {random.randint(6,13)}; {model2} Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)}))'
+    fban = "[FBAN/FB4A"
+    fbav = "FBAV/"+str(random.randint(111,399))+'.0.0.29.109'
+    fbbv = "FBBV/58682818;"
+    fblc = "FBLC/en_GB"
+    fbcr = "FBCR/null"
+    fbnp = "FBNP/com.facebook.katana"
+    fbdv = "FBDV/"+model2
+    fbsv = "FBSV/5.1.1"
+    fbdm = "FBDM/{density=1.5,width=720,height=1431};]" 
+    ua = f"{a}{fban};{fbav};{fbbv};{fblc};{fbcr};{fbnp};{fbdv};{fbsv};{fbdm}"
+    return ua
+
+def X2():
+    model2 = random.choice(["SM-G925F","SM-G900W8","SM-G925V","GT-I9505","SM-G920T"])
+    a = f'Dalvik/2.1.0 (Linux; U; Android {random.randint(6,13)}; {model2} Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)}))'
+    fban = "[FBAN/FB4A"
+    fbav = "FBAV/"+str(random.randint(111,399))+'.0.0.29.109'
+    fbbv = "FBBV/58682818;"
+    fblc = "FBLC/en_GB"
+    fbcr = "FBCR/null"
+    fbnp = "FBNP/com.facebook.katana"
+    fbdv = "FBDV/"+model2
+    fbsv = "FBSV/5.1.1"
+    fbdm = "FBDM/{density=1.5,width=720,height=1431};]" 
+    ua = f"{fban};{fbav};{fbbv};{fblc};{fbcr};{fbnp};{fbdv};{fbsv};{fbdm}"
+    return ua
+
+def X3():
+    model2 = random.choice(["SM-G925F","SM-G900W8","SM-G925V","GT-I9505","SM-G920T"])
+    a = f'Dalvik/2.1.0 (Linux; U; Android {random.randint(6,13)}; {model2} Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)}))'
+    fban = "[FBAN/FB4A"
+    fbav = "FBAV/"+str(random.randint(111,399))+'.0.0.29.109'
+    fbbv = "FBBV/58682818;"
+    fblc = "FBLC/en_GB"
+    fbcr = "FBCR/null"
+    fbnp = "FBNP/com.facebook.katana"
+    fbdv = "FBDV/"+model2
+    fbsv = "FBSV/5.1.1"
+    fbdm = "FBDM/{density=1.5,width=720,height=1431};]" 
+    ua = f"{a}{fban};{fbav};{fbbv};{fblc};{fbcr};{fbnp};{fbdv};{fbsv};{fbdm}"
+    return ua
+
+def X4():
+    model2 = random.choice(["SM-G925F","SM-G900W8","SM-G925V","GT-I9505","SM-G920T"])
+    a = f'Dalvik/2.1.0 (Linux; U; Android {random.randint(6,13)}; {model2} Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)}))'
+    fban = "[FBAN/FB4A"
+    fbav = "FBAV/"+str(random.randint(111,399))+'.0.0.29.109'
+    fbbv = "FBBV/58682818;"
+    fblc = "FBLC/en_GB"
+    fbcr = "FBCR/null"
+    fbnp = "FBNP/com.facebook.katana"
+    fbdv = "FBDV/"+model2
+    fbsv = "FBSV/5.1.1"
+    fbdm = "FBDM/{density=1.5,width=720,height=1431};]" 
+    ua = f"{fban};{fbav};{fbbv};{fblc};{fbcr};{fbnp};{fbdv};{fbsv};{fbdm}"
+    return ua
+
+def X5():
+    model2 = random.choice(["SM-G925F","SM-G900W8","SM-G925V","GT-I9505","SM-G920T"])
+    a = f'Dalvik/2.1.0 (Linux; U; Android {random.randint(6,13)}; {model2} Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)}))'
+    fban = "[FBAN/FB4A"
+    fbav = "FBAV/"+str(random.randint(111,399))+'.0.0.29.109'
+    fbbv = "FBBV/58682818;"
+    fblc = "FBLC/en_GB"
+    fbcr = "FBCR/null"
+    fbnp = "FBNP/com.facebook.katana"
+    fbdv = "FBDV/"+model2
+    fbsv = "FBSV/5.1.1"
+    fbdm = "FBDM/{density=1.5,width=720,height=1431};]" 
+    ua = f"{fban};{fbav};{fbbv};{fblc};{fbcr};{fbnp};{fbdv};{fbsv};{fbdm}"
+    return ua
