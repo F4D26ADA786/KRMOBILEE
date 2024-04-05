@@ -1,24 +1,24 @@
 def X1():
     a = 'Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; {random.choice(model2)} Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)}))'
     b = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))
-    c = ";[FBAN/FB4A;FBAV/196.0.0.44;FBBV/766287453;FBDM/{density=2.0,width=720,height=1459};FBLC/bg_BG;FBRV/681180519;FBCR/ZONG;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-A115M;FBSV/7.2.3;nullFBCA/armeabi-v7a:armeabi;]"
+    c = ";[FBAN/Orca-Android;FBAV/60.0.0.78.14;FBBV/20748110;FBDM/{density=4.9,width=1080,height=1920};FBLC/fr_CF;FBCR/Teleplus Wireless;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.orca;FBDV/SM-G900P;FBSV/6.0.1;nullFBCA/armeabi-v7a:armeabi;]"
     ua = a+b+c
     return ua
 def X2():
     a = 'Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; {random.choice(model2)} Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)}))'
     b = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))
-    c = ";[FBAN/FB4A;FBAV/196.0.0.44;FBBV/766287453;FBDM/{density=2.0,width=720,height=1459};FBLC/bg_BG;FBRV/681180519;FBCR/ZONG;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-A115M;FBSV/7.2.3;nullFBCA/armeabi-v7a:armeabi;]"
+    c = ";[FBAN/Orca-Android;FBAV/60.0.0.78.14;FBBV/20748110;FBDM/{density=4.9,width=1080,height=1920};FBLC/fr_CF;FBCR/Teleplus Wireless;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.orca;FBDV/SM-G900P;FBSV/6.0.1;nullFBCA/armeabi-v7a:armeabi;]"
     ua = a+b+c
     return ua
 def X3():
     a = 'Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; {random.choice(model2)} Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)}))'
     b = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))
-    c = ";[FBAN/FB4A;FBAV/196.0.0.44;FBBV/766287453;FBDM/{density=2.0,width=720,height=1459};FBLC/bg_BG;FBRV/681180519;FBCR/ZONG;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-A115M;FBSV/7.2.3;nullFBCA/armeabi-v7a:armeabi;]"
+    c = ";[FBAN/Orca-Android;FBAV/60.0.0.78.14;FBBV/20748110;FBDM/{density=4.9,width=1080,height=1920};FBLC/fr_CF;FBCR/Teleplus Wireless;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.orca;FBDV/SM-G900P;FBSV/6.0.1;nullFBCA/armeabi-v7a:armeabi;]"
     ua = a+b+c
     return ua
 def X4():
     a = 'Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; {random.choice(model2)} Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)}))'
     b = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))
-    c = ";[FBAN/FB4A;FBAV/196.0.0.44;FBBV/766287453;FBDM/{density=2.0,width=720,height=1459};FBLC/bg_BG;FBRV/681180519;FBCR/ZONG;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-A115M;FBSV/7.2.3;nullFBCA/armeabi-v7a:armeabi;]"
+    c = ";[FBAN/Orca-Android;FBAV/60.0.0.78.14;FBBV/20748110;FBDM/{density=4.9,width=1080,height=1920};FBLC/fr_CF;FBCR/Teleplus Wireless;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.orca;FBDV/SM-G900P;FBSV/6.0.1;nullFBCA/armeabi-v7a:armeabi;]"
     ua = a+b+c
     return ua
