@@ -1,24 +1,20 @@
 def X1():
-    a = "Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; {random.choice(model2)} Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)}))"
-    b = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))
-    c = ";[FBAN/Orca-Android;FBAV/342.1.0.14.119;FBPN/com.facebook.orca;FBLC/en_AU;FBBV/339015011;FBCR/Telenor;FBMF/samsung;FBBD/samsung;FBDV/SM-T835;FBSV/10.1;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.625,width=720,height=1280};FB_FW/1;]"
-    ua = b+c
+    network = random.choice(['O2.CZ','JAZZTEL','Nepal Telecom','YES OPTUS','Telstra','Telkomsel','null','Tele2 LT','Verizon','Unitel STP','MegaFon','MTN','Movistar','Turk Telekom','T-Mobile','VINAPHONE','LoneStar','UNEFON 4G','MASMOVIL','Grameenphone','Bouygues Telecom','Metfone','AT&amp;amp-T','Astelit-LIFE','Vodafone','XL Axiata','PLAY (T-Mobile)','Digi.Mobil','Verizon Wireless','SAZKAmobilCZ','PosteMobile','TELCEL','lifecell','Yoigo','vodafone.de','PosteMobile','Tele2 LT','Claro BR','O2 - UK','airtel','VIETTEL','U.S. Cellular','Metro by T-Mobile','TelkomSA','Banglalink','VIVACOM','lifecell','S COMVIQ','TRUE-H','GLOBE','VIETTEL','U.S. Cellular','Robi'])
+    local = random.choice(['en_US','en_GB','en_AU','lt_LT','tr_TR','in_ID','id_ID','cs_CZ','pt_BR','de_DE','ru_RU','es_US','pt_PT'])
+    ua = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))+";[FBAN/FB4A;FBAV/331.1.0.29.117;FBBV/310595742;FBDM/{density=3.375,width=1080,height=2139};FBLC/"+local+";FBRV/0;FBCR/"+network+";FBMF/HUAWEI;FBBD/HONOR;FBPN/com.facebook.katana;FBDV/HRY-LX1T;FBSV/10;FBOP/1;FBCA/arm64-v8a:;]"
     return ua
 def X2():
-    a = "Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; {random.choice(model2)} Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)}))"
-    b = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))
-    c = ";[FBAN/Orca-Android;FBAV/342.1.0.14.119;FBPN/com.facebook.orca;FBLC/en_AU;FBBV/339015011;FBCR/Telenor;FBMF/samsung;FBBD/samsung;FBDV/SM-T835;FBSV/10.1;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.625,width=720,height=1280};FB_FW/1;]"
-    ua = b+c
+    network = random.choice(['O2.CZ','JAZZTEL','Nepal Telecom','YES OPTUS','Telstra','Telkomsel','null','Tele2 LT','Verizon','Unitel STP','MegaFon','MTN','Movistar','Turk Telekom','T-Mobile','VINAPHONE','LoneStar','UNEFON 4G','MASMOVIL','Grameenphone','Bouygues Telecom','Metfone','AT&amp;amp-T','Astelit-LIFE','Vodafone','XL Axiata','PLAY (T-Mobile)','Digi.Mobil','Verizon Wireless','SAZKAmobilCZ','PosteMobile','TELCEL','lifecell','Yoigo','vodafone.de','PosteMobile','Tele2 LT','Claro BR','O2 - UK','airtel','VIETTEL','U.S. Cellular','Metro by T-Mobile','TelkomSA','Banglalink','VIVACOM','lifecell','S COMVIQ','TRUE-H','GLOBE','VIETTEL','U.S. Cellular','Robi'])
+    local = random.choice(['en_US','en_GB','en_AU','lt_LT','tr_TR','in_ID','id_ID','cs_CZ','pt_BR','de_DE','ru_RU','es_US','pt_PT'])
+    ua = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))+";[FBAN/FB4A;FBAV/331.1.0.29.117;FBBV/310595742;FBDM/{density=3.375,width=1080,height=2139};FBLC/"+local+";FBRV/0;FBCR/"+network+";FBMF/HUAWEI;FBBD/HONOR;FBPN/com.facebook.katana;FBDV/HRY-LX1T;FBSV/10;FBOP/1;FBCA/arm64-v8a:;]"
     return ua
 def X3():
-    a = "Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; {random.choice(model2)} Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)}))"
-    b = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))
-    c = ";[FBAN/Orca-Android;FBAV/342.1.0.14.119;FBPN/com.facebook.orca;FBLC/en_AU;FBBV/339015011;FBCR/Telenor;FBMF/samsung;FBBD/samsung;FBDV/SM-T835;FBSV/10.1;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.625,width=720,height=1280};FB_FW/1;]"
-    ua = b+c
+    network = random.choice(['O2.CZ','JAZZTEL','Nepal Telecom','YES OPTUS','Telstra','Telkomsel','null','Tele2 LT','Verizon','Unitel STP','MegaFon','MTN','Movistar','Turk Telekom','T-Mobile','VINAPHONE','LoneStar','UNEFON 4G','MASMOVIL','Grameenphone','Bouygues Telecom','Metfone','AT&amp;amp-T','Astelit-LIFE','Vodafone','XL Axiata','PLAY (T-Mobile)','Digi.Mobil','Verizon Wireless','SAZKAmobilCZ','PosteMobile','TELCEL','lifecell','Yoigo','vodafone.de','PosteMobile','Tele2 LT','Claro BR','O2 - UK','airtel','VIETTEL','U.S. Cellular','Metro by T-Mobile','TelkomSA','Banglalink','VIVACOM','lifecell','S COMVIQ','TRUE-H','GLOBE','VIETTEL','U.S. Cellular','Robi'])
+    local = random.choice(['en_US','en_GB','en_AU','lt_LT','tr_TR','in_ID','id_ID','cs_CZ','pt_BR','de_DE','ru_RU','es_US','pt_PT'])
+    ua = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))+";[FBAN/FB4A;FBAV/331.1.0.29.117;FBBV/310595742;FBDM/{density=3.375,width=1080,height=2139};FBLC/"+local+";FBRV/0;FBCR/"+network+";FBMF/HUAWEI;FBBD/HONOR;FBPN/com.facebook.katana;FBDV/HRY-LX1T;FBSV/10;FBOP/1;FBCA/arm64-v8a:;]"
     return ua
 def X4():
-    a = "Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; {random.choice(model2)} Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)}))"
-    b = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))
-    c = ";[FBAN/Orca-Android;FBAV/342.1.0.14.119;FBPN/com.facebook.orca;FBLC/en_AU;FBBV/339015011;FBCR/Telenor;FBMF/samsung;FBBD/samsung;FBDV/SM-T835;FBSV/10.1;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.625,width=720,height=1280};FB_FW/1;]"
-    ua = b+c
+    network = random.choice(['O2.CZ','JAZZTEL','Nepal Telecom','YES OPTUS','Telstra','Telkomsel','null','Tele2 LT','Verizon','Unitel STP','MegaFon','MTN','Movistar','Turk Telekom','T-Mobile','VINAPHONE','LoneStar','UNEFON 4G','MASMOVIL','Grameenphone','Bouygues Telecom','Metfone','AT&amp;amp-T','Astelit-LIFE','Vodafone','XL Axiata','PLAY (T-Mobile)','Digi.Mobil','Verizon Wireless','SAZKAmobilCZ','PosteMobile','TELCEL','lifecell','Yoigo','vodafone.de','PosteMobile','Tele2 LT','Claro BR','O2 - UK','airtel','VIETTEL','U.S. Cellular','Metro by T-Mobile','TelkomSA','Banglalink','VIVACOM','lifecell','S COMVIQ','TRUE-H','GLOBE','VIETTEL','U.S. Cellular','Robi'])
+    local = random.choice(['en_US','en_GB','en_AU','lt_LT','tr_TR','in_ID','id_ID','cs_CZ','pt_BR','de_DE','ru_RU','es_US','pt_PT'])
+    ua = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))+";[FBAN/FB4A;FBAV/331.1.0.29.117;FBBV/310595742;FBDM/{density=3.375,width=1080,height=2139};FBLC/"+local+";FBRV/0;FBCR/"+network+";FBMF/HUAWEI;FBBD/HONOR;FBPN/com.facebook.katana;FBDV/HRY-LX1T;FBSV/10;FBOP/1;FBCA/arm64-v8a:;]"
     return ua
