@@ -1,40 +1,12 @@
 def X1():
-    rr = random.randint
-    a = f"Mozilla/5.0 (Linux; Android {str(rr(6,13))}; SM-G960U Build/QP1A.{str(rr(111111,999999))}.020) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/127.0.{str(rr(1111,9999))}.{str(rr(11,99))} Mobile Safari/537.36"
-    b = f"Mozilla/5.0 (Linux; Android {str(rr(6,13))}; TECNO KJ7s Build/QP1A.{str(rr(111111,999999))}.007) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/125.0.{str(rr(1111,9999))}.{str(rr(11,99))} Mobile Safari/53"
-    c = f"Mozilla/5.0 (Linux; Android {str(rr(6,13))}; Infinix X6850 Build/QP1A.{str(rr(111111,999999))}.007) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/125.0.{str(rr(1111,9999))}.{str(rr(11,99))} Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/467.1.0.52.83;] FBNV/1"
-    d = f"Mozilla/5.0 (Linux; Android {str(rr(6,13))}; zh-CN; PHW110 Build/RKQ1.{str(rr(111111,999999))}.001) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/100.0.{str(rr(1111,9999))}.{str(rr(11,99))} Mobile Safari/537.36"
-    e = f"Mozilla/5.0 (Linux; Android {str(rr(6,13))}; V2203A Build/UP1A.{str(rr(111111,999999))}.007) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.{str(rr(1111,9999))}.{str(rr(11,99))} Mobile Safari/537.36"
-    f = f"Mozilla/5.0 (Linux; Android {str(rr(6,13))}; zh-CN; 23113RKC6C Build/UKQ1.{str(rr(111111,999999))}.001)AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/100.0.{str(rr(1111,9999))}.{str(rr(11,99))} Mobile Safari/537.36"
-    ua = random.choice([a,b,c,d,e,f])
+    ua  = "[FBAN/Orca-Android;FBAV/"+str(random.randint(196,214))+'.0.0.'+str(random.randrange(33,66))+";FBBV/"+str(random.randint(111111111,999999999))+";[FBAN/Orca-Android;FBAV/213.0.0.67;FBPN/com.facebook.orca;FBLC/en_US;FBBV/123456789;FBCR/Verizon;FBMF/Samsung;FBBD/Samsung;FBDV/GALAXY S24 ULTRA;FBSV/14;FBCA/arm64-v8a;FBDM/{density=2.0,width=1080,height=2400};FB_FW/1;FBRV/987654321]"
     return ua
 def X2():
-    rr = random.randint
-    a = f"Mozilla/5.0 (Linux; Android {str(rr(6,13))}; SM-G960U Build/QP1A.{str(rr(111111,999999))}.020) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/127.0.{str(rr(1111,9999))}.{str(rr(11,99))} Mobile Safari/537.36"
-    b = f"Mozilla/5.0 (Linux; Android {str(rr(6,13))}; TECNO KJ7s Build/QP1A.{str(rr(111111,999999))}.007) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/125.0.{str(rr(1111,9999))}.{str(rr(11,99))} Mobile Safari/53"
-    c = f"Mozilla/5.0 (Linux; Android {str(rr(6,13))}; Infinix X6850 Build/QP1A.{str(rr(111111,999999))}.007) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/125.0.{str(rr(1111,9999))}.{str(rr(11,99))} Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/467.1.0.52.83;] FBNV/1"
-    d = f"Mozilla/5.0 (Linux; Android {str(rr(6,13))}; zh-CN; PHW110 Build/RKQ1.{str(rr(111111,999999))}.001) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/100.0.{str(rr(1111,9999))}.{str(rr(11,99))} Mobile Safari/537.36"
-    e = f"Mozilla/5.0 (Linux; Android {str(rr(6,13))}; V2203A Build/UP1A.{str(rr(111111,999999))}.007) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.{str(rr(1111,9999))}.{str(rr(11,99))} Mobile Safari/537.36"
-    f = f"Mozilla/5.0 (Linux; Android {str(rr(6,13))}; zh-CN; 23113RKC6C Build/UKQ1.{str(rr(111111,999999))}.001)AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/100.0.{str(rr(1111,9999))}.{str(rr(11,99))} Mobile Safari/537.36"
-    ua = random.choice([a,b,c,d,e,f])
+    ua  = "[FBAN/Orca-Android;FBAV/"+str(random.randint(196,214))+'.0.0.'+str(random.randrange(33,66))+";FBBV/"+str(random.randint(111111111,999999999))+";[FBAN/Orca-Android;FBAV/213.0.0.67;FBPN/com.facebook.orca;FBLC/en_US;FBBV/123456789;FBCR/Verizon;FBMF/Samsung;FBBD/Samsung;FBDV/GALAXY S24 ULTRA;FBSV/14;FBCA/arm64-v8a;FBDM/{density=2.0,width=1080,height=2400};FB_FW/1;FBRV/987654321]"
     return ua
 def X3():
-    rr = random.randint
-    a = f"Mozilla/5.0 (Linux; Android {str(rr(6,13))}; SM-G960U Build/QP1A.{str(rr(111111,999999))}.020) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/127.0.{str(rr(1111,9999))}.{str(rr(11,99))} Mobile Safari/537.36"
-    b = f"Mozilla/5.0 (Linux; Android {str(rr(6,13))}; TECNO KJ7s Build/QP1A.{str(rr(111111,999999))}.007) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/125.0.{str(rr(1111,9999))}.{str(rr(11,99))} Mobile Safari/53"
-    c = f"Mozilla/5.0 (Linux; Android {str(rr(6,13))}; Infinix X6850 Build/QP1A.{str(rr(111111,999999))}.007) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/125.0.{str(rr(1111,9999))}.{str(rr(11,99))} Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/467.1.0.52.83;] FBNV/1"
-    d = f"Mozilla/5.0 (Linux; Android {str(rr(6,13))}; zh-CN; PHW110 Build/RKQ1.{str(rr(111111,999999))}.001) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/100.0.{str(rr(1111,9999))}.{str(rr(11,99))} Mobile Safari/537.36"
-    e = f"Mozilla/5.0 (Linux; Android {str(rr(6,13))}; V2203A Build/UP1A.{str(rr(111111,999999))}.007) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.{str(rr(1111,9999))}.{str(rr(11,99))} Mobile Safari/537.36"
-    f = f"Mozilla/5.0 (Linux; Android {str(rr(6,13))}; zh-CN; 23113RKC6C Build/UKQ1.{str(rr(111111,999999))}.001)AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/100.0.{str(rr(1111,9999))}.{str(rr(11,99))} Mobile Safari/537.36"
-    ua = random.choice([a,b,c,d,e,f])
+    ua  = "[FBAN/Orca-Android;FBAV/"+str(random.randint(196,214))+'.0.0.'+str(random.randrange(33,66))+";FBBV/"+str(random.randint(111111111,999999999))+";[FBAN/Orca-Android;FBAV/213.0.0.67;FBPN/com.facebook.orca;FBLC/en_US;FBBV/123456789;FBCR/Verizon;FBMF/Samsung;FBBD/Samsung;FBDV/GALAXY S24 ULTRA;FBSV/14;FBCA/arm64-v8a;FBDM/{density=2.0,width=1080,height=2400};FB_FW/1;FBRV/987654321]"
     return ua
 def X4():
-    rr = random.randint
-    a = f"Mozilla/5.0 (Linux; Android {str(rr(6,13))}; SM-G960U Build/QP1A.{str(rr(111111,999999))}.020) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/127.0.{str(rr(1111,9999))}.{str(rr(11,99))} Mobile Safari/537.36"
-    b = f"Mozilla/5.0 (Linux; Android {str(rr(6,13))}; TECNO KJ7s Build/QP1A.{str(rr(111111,999999))}.007) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/125.0.{str(rr(1111,9999))}.{str(rr(11,99))} Mobile Safari/53"
-    c = f"Mozilla/5.0 (Linux; Android {str(rr(6,13))}; Infinix X6850 Build/QP1A.{str(rr(111111,999999))}.007) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/125.0.{str(rr(1111,9999))}.{str(rr(11,99))} Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/467.1.0.52.83;] FBNV/1"
-    d = f"Mozilla/5.0 (Linux; Android {str(rr(6,13))}; zh-CN; PHW110 Build/RKQ1.{str(rr(111111,999999))}.001) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/100.0.{str(rr(1111,9999))}.{str(rr(11,99))} Mobile Safari/537.36"
-    e = f"Mozilla/5.0 (Linux; Android {str(rr(6,13))}; V2203A Build/UP1A.{str(rr(111111,999999))}.007) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.{str(rr(1111,9999))}.{str(rr(11,99))} Mobile Safari/537.36"
-    f = f"Mozilla/5.0 (Linux; Android {str(rr(6,13))}; zh-CN; 23113RKC6C Build/UKQ1.{str(rr(111111,999999))}.001)AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/100.0.{str(rr(1111,9999))}.{str(rr(11,99))} Mobile Safari/537.36"
-    ua = random.choice([a,b,c,d,e,f])
+    ua  = "[FBAN/Orca-Android;FBAV/"+str(random.randint(196,214))+'.0.0.'+str(random.randrange(33,66))+";FBBV/"+str(random.randint(111111111,999999999))+";[FBAN/Orca-Android;FBAV/213.0.0.67;FBPN/com.facebook.orca;FBLC/en_US;FBBV/123456789;FBCR/Verizon;FBMF/Samsung;FBBD/Samsung;FBDV/GALAXY S24 ULTRA;FBSV/14;FBCA/arm64-v8a;FBDM/{density=2.0,width=1080,height=2400};FB_FW/1;FBRV/987654321]"
     return ua
