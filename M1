@@ -1,40 +1,20 @@
 def X1():
-    rr = random.randint
-    a = f"Mozilla/5.0 (Linux; Android {str(rr(6,13))}; en-us; SAMSUNG GT-I9515 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/28.0.{str(rr(1111,9999))}.{str(rr(11,99))} Mobile Safari/537.36"
-    b = f"Mozilla/5.0 (Linux; Android {str(rr(6,13))}; SCH-R970U Build/JLS36G) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/32.0.{str(rr(1111,9999))}.{str(rr(11,99))} Mobile Safari/537.36"
-    c = f"Mozilla/5.0 (Linux; Android {str(rr(6,13))}; Nokia 2 Build/NMF26F; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/64.0.{str(rr(1111,9999))}.{str(rr(11,99))} Mobile Safari/537.36"
-    d = f"Mozilla/5.0 (Linux; Android {str(rr(6,13))}; TECNO BD2p Build/RP1A.{str(rr(111111,999999))}.001) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/96.0.{str(rr(1111,9999))}.{str(rr(11,99))} Mobile Safari/537.36"
-    e = f"Mozilla/5.0 (Linux; Android {str(rr(6,13))}; Redmi Note 9) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/92.0.{str(rr(1111,9999))}.{str(rr(11,99))} Mobile Safari/537.36"
-    f = f"Mozilla/5.0 (Linux; Android {str(rr(6,13))}; RMX2155) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/87.0.{str(rr(1111,9999))}.{str(rr(11,99))} Mobile Safari/537.36"
-    ua = random.choice([a,b,c,d,e,f])
+    a = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))
+    b = ";[FBAN/FB4A;FBAV/86.0.0.13.69;FBBV/33840476;FBDM/{density=3.5,width=1280,height=1980};FBLC/bg_BG;FBCR/Nepal Telecom;FBMF/samsung;FBBD/samsung;FBNP/com.facebook.katana;FBDV/SM-A707F;FBSV/7.1.1;nullFBCA/armeabi-v7a:armeabi;]"+"[FBAN/FB4A;FBAV/1.8.4;FBDM/{density=0.75,width=480,height=320};FBLC/pt_BR;FB_FW/1;FBCR/CLARO BR;FBNP/com.facebook.katana;FBSV/2.1-update1;]"+"[FBAN/FB4A;FBAV/3.6.1;FBBV/334442;FBDM/{density=1.0,width=320,height=480};FBLC/pt_PT;FBCR/Fiber;FBNP/com.facebook.katana;FBDV/SM-A600G;FBSV/2.3.6;FBCA/armeabi-v7a:armeabi;]"+"[FBAN/FB4A;FBAV/61.0.0.15.69;FBBV/20748118;FBDM/{density=1.5,width=720,height=1080};FBLC/en_US;FBCR/U.S. Cellular;FBMF/Xiaomi;FBBD/Redmi;FBNP/com.facebook.katana;FBDV/Redmi K50i;FBSV/7.1.1;nullFBCA/armeabi-v7a:armeabi;]"
+    ua = a+b
     return ua
 def X2():
-    rr = random.randint
-    a = f"Mozilla/5.0 (Linux; Android {str(rr(6,13))}; en-us; SAMSUNG GT-I9515 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/28.0.{str(rr(1111,9999))}.{str(rr(11,99))} Mobile Safari/537.36"
-    b = f"Mozilla/5.0 (Linux; Android {str(rr(6,13))}; SCH-R970U Build/JLS36G) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/32.0.{str(rr(1111,9999))}.{str(rr(11,99))} Mobile Safari/537.36"
-    c = f"Mozilla/5.0 (Linux; Android {str(rr(6,13))}; Nokia 2 Build/NMF26F; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/64.0.{str(rr(1111,9999))}.{str(rr(11,99))} Mobile Safari/537.36"
-    d = f"Mozilla/5.0 (Linux; Android {str(rr(6,13))}; TECNO BD2p Build/RP1A.{str(rr(111111,999999))}.001) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/96.0.{str(rr(1111,9999))}.{str(rr(11,99))} Mobile Safari/537.36"
-    e = f"Mozilla/5.0 (Linux; Android {str(rr(6,13))}; Redmi Note 9) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/92.0.{str(rr(1111,9999))}.{str(rr(11,99))} Mobile Safari/537.36"
-    f = f"Mozilla/5.0 (Linux; Android {str(rr(6,13))}; RMX2155) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/87.0.{str(rr(1111,9999))}.{str(rr(11,99))} Mobile Safari/537.36"
-    ua = random.choice([a,b,c,d,e,f])
+    a = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))
+    b = ";[FBAN/FB4A;FBAV/86.0.0.13.69;FBBV/33840476;FBDM/{density=3.5,width=1280,height=1980};FBLC/bg_BG;FBCR/Nepal Telecom;FBMF/samsung;FBBD/samsung;FBNP/com.facebook.katana;FBDV/SM-A707F;FBSV/7.1.1;nullFBCA/armeabi-v7a:armeabi;]"+"[FBAN/FB4A;FBAV/1.8.4;FBDM/{density=0.75,width=480,height=320};FBLC/pt_BR;FB_FW/1;FBCR/CLARO BR;FBNP/com.facebook.katana;FBSV/2.1-update1;]"+"[FBAN/FB4A;FBAV/3.6.1;FBBV/334442;FBDM/{density=1.0,width=320,height=480};FBLC/pt_PT;FBCR/Fiber;FBNP/com.facebook.katana;FBDV/SM-A600G;FBSV/2.3.6;FBCA/armeabi-v7a:armeabi;]"+"[FBAN/FB4A;FBAV/61.0.0.15.69;FBBV/20748118;FBDM/{density=1.5,width=720,height=1080};FBLC/en_US;FBCR/U.S. Cellular;FBMF/Xiaomi;FBBD/Redmi;FBNP/com.facebook.katana;FBDV/Redmi K50i;FBSV/7.1.1;nullFBCA/armeabi-v7a:armeabi;]"
+    ua = a+b
     return ua
 def X3():
-    rr = random.randint
-    a = f"Mozilla/5.0 (Linux; Android {str(rr(6,13))}; en-us; SAMSUNG GT-I9515 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/28.0.{str(rr(1111,9999))}.{str(rr(11,99))} Mobile Safari/537.36"
-    b = f"Mozilla/5.0 (Linux; Android {str(rr(6,13))}; SCH-R970U Build/JLS36G) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/32.0.{str(rr(1111,9999))}.{str(rr(11,99))} Mobile Safari/537.36"
-    c = f"Mozilla/5.0 (Linux; Android {str(rr(6,13))}; Nokia 2 Build/NMF26F; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/64.0.{str(rr(1111,9999))}.{str(rr(11,99))} Mobile Safari/537.36"
-    d = f"Mozilla/5.0 (Linux; Android {str(rr(6,13))}; TECNO BD2p Build/RP1A.{str(rr(111111,999999))}.001) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/96.0.{str(rr(1111,9999))}.{str(rr(11,99))} Mobile Safari/537.36"
-    e = f"Mozilla/5.0 (Linux; Android {str(rr(6,13))}; Redmi Note 9) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/92.0.{str(rr(1111,9999))}.{str(rr(11,99))} Mobile Safari/537.36"
-    f = f"Mozilla/5.0 (Linux; Android {str(rr(6,13))}; RMX2155) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/87.0.{str(rr(1111,9999))}.{str(rr(11,99))} Mobile Safari/537.36"
-    ua = random.choice([a,b,c,d,e,f])
+    a = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))
+    b = ";[FBAN/FB4A;FBAV/86.0.0.13.69;FBBV/33840476;FBDM/{density=3.5,width=1280,height=1980};FBLC/bg_BG;FBCR/Nepal Telecom;FBMF/samsung;FBBD/samsung;FBNP/com.facebook.katana;FBDV/SM-A707F;FBSV/7.1.1;nullFBCA/armeabi-v7a:armeabi;]"+"[FBAN/FB4A;FBAV/1.8.4;FBDM/{density=0.75,width=480,height=320};FBLC/pt_BR;FB_FW/1;FBCR/CLARO BR;FBNP/com.facebook.katana;FBSV/2.1-update1;]"+"[FBAN/FB4A;FBAV/3.6.1;FBBV/334442;FBDM/{density=1.0,width=320,height=480};FBLC/pt_PT;FBCR/Fiber;FBNP/com.facebook.katana;FBDV/SM-A600G;FBSV/2.3.6;FBCA/armeabi-v7a:armeabi;]"+"[FBAN/FB4A;FBAV/61.0.0.15.69;FBBV/20748118;FBDM/{density=1.5,width=720,height=1080};FBLC/en_US;FBCR/U.S. Cellular;FBMF/Xiaomi;FBBD/Redmi;FBNP/com.facebook.katana;FBDV/Redmi K50i;FBSV/7.1.1;nullFBCA/armeabi-v7a:armeabi;]"
+    ua = a+b
     return ua
 def X4():
-    rr = random.randint
-    a = f"Mozilla/5.0 (Linux; Android {str(rr(6,13))}; en-us; SAMSUNG GT-I9515 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/28.0.{str(rr(1111,9999))}.{str(rr(11,99))} Mobile Safari/537.36"
-    b = f"Mozilla/5.0 (Linux; Android {str(rr(6,13))}; SCH-R970U Build/JLS36G) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/32.0.{str(rr(1111,9999))}.{str(rr(11,99))} Mobile Safari/537.36"
-    c = f"Mozilla/5.0 (Linux; Android {str(rr(6,13))}; Nokia 2 Build/NMF26F; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/64.0.{str(rr(1111,9999))}.{str(rr(11,99))} Mobile Safari/537.36"
-    d = f"Mozilla/5.0 (Linux; Android {str(rr(6,13))}; TECNO BD2p Build/RP1A.{str(rr(111111,999999))}.001) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/96.0.{str(rr(1111,9999))}.{str(rr(11,99))} Mobile Safari/537.36"
-    e = f"Mozilla/5.0 (Linux; Android {str(rr(6,13))}; Redmi Note 9) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/92.0.{str(rr(1111,9999))}.{str(rr(11,99))} Mobile Safari/537.36"
-    f = f"Mozilla/5.0 (Linux; Android {str(rr(6,13))}; RMX2155) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/87.0.{str(rr(1111,9999))}.{str(rr(11,99))} Mobile Safari/537.36"
-    ua = random.choice([a,b,c,d,e,f])
+    a = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))
+    b = ";[FBAN/FB4A;FBAV/86.0.0.13.69;FBBV/33840476;FBDM/{density=3.5,width=1280,height=1980};FBLC/bg_BG;FBCR/Nepal Telecom;FBMF/samsung;FBBD/samsung;FBNP/com.facebook.katana;FBDV/SM-A707F;FBSV/7.1.1;nullFBCA/armeabi-v7a:armeabi;]"+"[FBAN/FB4A;FBAV/1.8.4;FBDM/{density=0.75,width=480,height=320};FBLC/pt_BR;FB_FW/1;FBCR/CLARO BR;FBNP/com.facebook.katana;FBSV/2.1-update1;]"+"[FBAN/FB4A;FBAV/3.6.1;FBBV/334442;FBDM/{density=1.0,width=320,height=480};FBLC/pt_PT;FBCR/Fiber;FBNP/com.facebook.katana;FBDV/SM-A600G;FBSV/2.3.6;FBCA/armeabi-v7a:armeabi;]"+"[FBAN/FB4A;FBAV/61.0.0.15.69;FBBV/20748118;FBDM/{density=1.5,width=720,height=1080};FBLC/en_US;FBCR/U.S. Cellular;FBMF/Xiaomi;FBBD/Redmi;FBNP/com.facebook.katana;FBDV/Redmi K50i;FBSV/7.1.1;nullFBCA/armeabi-v7a:armeabi;]"
+    ua = a+b
     return ua
