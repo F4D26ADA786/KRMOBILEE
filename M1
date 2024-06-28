@@ -1,20 +1,20 @@
 def X1():
     s= "[FBAN/FB4A;FBAV/"+str(random.randint(111,555))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77))+";FBBV/"+str(random.randint(1111111,7777777))
-    e = random.choice([";[FBAN/FB4A;FBAV/215.0.0.110;FBBV/465789012;FBDM/{density=3.0,width=1080,height=2186};FBLC/en_PK;FBRV/645321098;FBCR/MTS;FBMF/Samsung;FBBD/Samsung;FBPN/com.facebook.katana;FBDV/Galaxy A51;FBSV/11.0;nullFBCA/armeabi-v7a:armeabi;]",";[FBAN/Orca-Android;FBAV/42.0.0.0.93;FBBV/15353094;FBDM/{density=3.0,width=1080,height=2094};FBLC/en_US;FBCR/T-Mobile MK;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.orca;FBDV/Samsung Galaxy S9+;FBSV/9.0;nullFBCA/armeabi-v7a:armeabi;]"])
+    e = ";[FBAN/FB4A;FBAV/225.0.0.12;FBBV/368660129;FBDM/{density=2.0,width=678,height=7915};FBLC/en_US;FBRV/216095057;FBCR/6G;FBMF/Samsung;FBBD/Samsung;FBPN/com.facebook.katana;FBDV/Samsung Reno 3;FBSV/10;FBOP/1;FBCA/armeabi-v7a:armeabi;]"
     ua = s + e	
     return ua
 def X2():
     s= "[FBAN/FB4A;FBAV/"+str(random.randint(111,555))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77))+";FBBV/"+str(random.randint(1111111,7777777))
-    e = random.choice([";[FBAN/FB4A;FBAV/215.0.0.110;FBBV/465789012;FBDM/{density=3.0,width=1080,height=2186};FBLC/en_PK;FBRV/645321098;FBCR/MTS;FBMF/Samsung;FBBD/Samsung;FBPN/com.facebook.katana;FBDV/Galaxy A51;FBSV/11.0;nullFBCA/armeabi-v7a:armeabi;]",";[FBAN/Orca-Android;FBAV/42.0.0.0.93;FBBV/15353094;FBDM/{density=3.0,width=1080,height=2094};FBLC/en_US;FBCR/T-Mobile MK;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.orca;FBDV/Samsung Galaxy S9+;FBSV/9.0;nullFBCA/armeabi-v7a:armeabi;]"])
+    e = ";[FBAN/FB4A;FBAV/225.0.0.12;FBBV/368660129;FBDM/{density=2.0,width=678,height=7915};FBLC/en_US;FBRV/216095057;FBCR/6G;FBMF/Samsung;FBBD/Samsung;FBPN/com.facebook.katana;FBDV/Samsung Reno 3;FBSV/10;FBOP/1;FBCA/armeabi-v7a:armeabi;]"
     ua = s + e	
     return ua
 def X3():
     s= "[FBAN/FB4A;FBAV/"+str(random.randint(111,555))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77))+";FBBV/"+str(random.randint(1111111,7777777))
-    e = random.choice([";[FBAN/FB4A;FBAV/215.0.0.110;FBBV/465789012;FBDM/{density=3.0,width=1080,height=2186};FBLC/en_PK;FBRV/645321098;FBCR/MTS;FBMF/Samsung;FBBD/Samsung;FBPN/com.facebook.katana;FBDV/Galaxy A51;FBSV/11.0;nullFBCA/armeabi-v7a:armeabi;]",";[FBAN/Orca-Android;FBAV/42.0.0.0.93;FBBV/15353094;FBDM/{density=3.0,width=1080,height=2094};FBLC/en_US;FBCR/T-Mobile MK;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.orca;FBDV/Samsung Galaxy S9+;FBSV/9.0;nullFBCA/armeabi-v7a:armeabi;]"])
+    e = ";[FBAN/FB4A;FBAV/225.0.0.12;FBBV/368660129;FBDM/{density=2.0,width=678,height=7915};FBLC/en_US;FBRV/216095057;FBCR/6G;FBMF/Samsung;FBBD/Samsung;FBPN/com.facebook.katana;FBDV/Samsung Reno 3;FBSV/10;FBOP/1;FBCA/armeabi-v7a:armeabi;]"
     ua = s + e	
     return ua
 def X4():
     s= "[FBAN/FB4A;FBAV/"+str(random.randint(111,555))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77))+";FBBV/"+str(random.randint(1111111,7777777))
-    e = random.choice([";[FBAN/FB4A;FBAV/215.0.0.110;FBBV/465789012;FBDM/{density=3.0,width=1080,height=2186};FBLC/en_PK;FBRV/645321098;FBCR/MTS;FBMF/Samsung;FBBD/Samsung;FBPN/com.facebook.katana;FBDV/Galaxy A51;FBSV/11.0;nullFBCA/armeabi-v7a:armeabi;]",";[FBAN/Orca-Android;FBAV/42.0.0.0.93;FBBV/15353094;FBDM/{density=3.0,width=1080,height=2094};FBLC/en_US;FBCR/T-Mobile MK;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.orca;FBDV/Samsung Galaxy S9+;FBSV/9.0;nullFBCA/armeabi-v7a:armeabi;]"])
+    e = ";[FBAN/FB4A;FBAV/225.0.0.12;FBBV/368660129;FBDM/{density=2.0,width=678,height=7915};FBLC/en_US;FBRV/216095057;FBCR/6G;FBMF/Samsung;FBBD/Samsung;FBPN/com.facebook.katana;FBDV/Samsung Reno 3;FBSV/10;FBOP/1;FBCA/armeabi-v7a:armeabi;]"
     ua = s + e	
     return ua
